@@ -1,0 +1,21 @@
+<form [formGroup]="formularioDeUsuario" (ngSubmit)="enviarDatos()">
+<section class="form-register">
+
+    <h4>Iniciar sesión</h4>
+    <label for="" class="form-label">Correo: </label>
+  <br>
+      <input type="text"
+        class="Control" name="correo" id="correo" aria-describedby="helpId" placeholder="Ingrese su correo.">
+      <small id="helpId" class="form-text text-muted"></small>
+  <br>
+    <label for="" class="form-label">Contraseña: </label>
+  <br>
+        <input type="text"
+          class="Control" name="contraseña" id="contraseña" aria-describedby="helpId" placeholder="Ingrese su contraseña.">
+        <small id="helpId" class="form-text text-muted"></small>
+
+        <input type="submit" name="InicioSesion" id="" class="Boton" value="Iniciar sesion">
+        <!-- input name="Registrarse" id="" class="Boton" type="Button" value="Registrarse" -->
+</section>
+</form>
+  

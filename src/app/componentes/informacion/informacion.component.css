@@ -1,0 +1,45 @@
+.links {
+display: block;
+width: 119px;
+display: none;
+}
+
+.links a:hover{
+    background: #2079b0;
+    background-image: -webkit-linear-gradient(top, #33d55b, #2bb4de);
+    background-image: -moz-linear-gradient(top, #33d55b, #2bb4de);
+    background-image: -ms-linear-gradient(top, #33d55b, #2bb4de);
+    background-image: -o-linear-gradient(top, #33d55b, #2bb4de);
+    background-image: linear-gradient(to bottom, #33d55b, #2bb4de);
+    text-decoration: none;
+    color: white;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: auto;
+    font-size: auto;
+}
+
+.botonDes:hover .links{
+    display: block;
+}
+
+.botonDes {
+    width: 120px;
+}
+
+.botoneitor {
+    background: #2079b0;
+    background-image: -webkit-linear-gradient(top, #33d55b, #2bb4de);
+    background-image: -moz-linear-gradient(top, #33d55b, #2bb4de);
+    background-image: -ms-linear-gradient(top, #33d55b, #2bb4de);
+    background-image: -o-linear-gradient(top, #33d55b, #2bb4de);
+    background-image: linear-gradient(to bottom, #33d55b, #2bb4de);
+    text-decoration: none;
+    color: white;
+
+    border-radius: 5px;
+}
